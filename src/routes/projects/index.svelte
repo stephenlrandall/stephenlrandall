@@ -1,8 +1,14 @@
+<script>
+	import Title from '../../components/Title.svelte';
+</script>
+
 <svelte:head>
-	<title>Projects</title>
+	<title>Projects | Stephen Randall</title>
 </svelte:head>
 
-<h1>Things I work(ed) on.</h1>
+<Title title={"Things I work(ed) on."}/>
+
+<span>Add descriptions!</span>
 
 <ul>
 	<li><a href="https://www.duellinksmeta.com">duellinksmeta.com</a></li>

@@ -2,10 +2,14 @@
 	@import "../styles/variables.scss";
 </style>
 
+<script>
+	import Title from '../components/Title.svelte';
+</script>
+
 <svelte:head>
-	<title>Home</title>
+	<title>Home | Stephen Randall</title>
 </svelte:head>
 
-<h1>Stephen Randall</h1>
+<Title title={"Stephen Randall"} subtitle={"physicist. developer. husband."}/>
 
-<p><strong>Under construction</strong></p>
+<p><strong>Imagine there was cool stuff here.</strong></p>

@@ -4,10 +4,11 @@
     .canvas-container
 	{
         @include centered-column;
+        flex: 1;
 
         width: 90%;
+        height: 100%;
         min-height: 0;
-        flex: 1;
 
         padding: 5px 0 15px;
 
@@ -15,13 +16,23 @@
 		{
 			align-self: flex-end;
             padding: 0 2px 5px 0;
-		}
+        }
+        
+        .canvas-warning
+        {
+            align-self: center;
+            padding-top: 15px;
+
+            color: white;
+            font-size: 8pt;
+        }
 
         canvas
         {
-            width: 100%;
-            height: calc(100% - 15px);
             flex: 1;
+
+            width: 100%;
+            min-height: 0;
         }
 	}
 
@@ -60,7 +71,6 @@
 		if (canvas.width === displayWidth && canvas.height === displayHeight)
 			return;
         
-        console.log("resized!");
 		canvas.width = displayWidth;
 		canvas.height = displayHeight;
   	}
@@ -70,12 +80,14 @@
         canvas = document.querySelector(`#${id}`);
         resize();
         createScene([], canvas);
-    });
 
-    window.addEventListener("resize", resize);
+        window.addEventListener("resize", resize);
+    });
 </script>
 
 <div class="canvas-container">
+    <span>Next: Dynamically create/destroy objects of the selected type!</span>
     <span class="canvas-label">{objectTypes.filter(ot => ot.num > 0).map(ot => `${ot.num} ${ot.id}${ot.num > 1 ? 's' : ""}`).join(", ") || "0 objects"}</span>
     <canvas class="theme-element" id={id}></canvas>
+    <span class="canvas-warning"><i class="fas fa-exclamation-triangle"></i> Not fully supported on Safari.</span>
 </div>

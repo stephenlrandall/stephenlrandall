@@ -3,8 +3,10 @@ $deep-violet: rgb(17, 0, 65);
 $gold: rgba(253, 227, 45, 1);
 $seafoam: rgb(34, 193, 195);
 
-// Maximum width to be considered a "mobile" device
+// Global reference constants
 $mobileWidth: 650px;
+$navHeight: 60px;
+$footerHeight: 40px;
 
 // Centered content in a column
 @mixin centered-column

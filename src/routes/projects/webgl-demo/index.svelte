@@ -1,15 +1,11 @@
 <style lang="scss" global>
 	@import "./styles/global.scss";
 
-	.container
+	.demo-container
 	{
 		@include centered-column;
 
-		position: relative;
-		width: 80%;
 		height: 100%;
-		max-width: 860px;
-		margin: 0 auto;
 	}
 
 	.control-row
@@ -43,27 +39,20 @@
 		}
 	}
 
-	.footer
-	{
-		@include centered-column;
-
-		color: white;
-		font-size: 8pt;
-
-		padding-top: 15px;
-
-		span { padding-bottom: 10px; }
-		
-		a
-		{
-			color: inherit;
-			text-decoration: underline;
-		}
-	}
-
 	@media only screen and (max-width: $mobileWidth)
 	{
-		.container { width: 90%; }
+		.add-controls,
+		.clear-controls
+		{
+			width: 50%;
+
+			.control-element
+			{
+				width: 100%;
+
+				&:not(:last-child) { margin-bottom: 10px; }
+			}
+		}
 	}
 </style>
 
@@ -112,7 +101,7 @@
 	<script src="https://kit.fontawesome.com/e2e4175a99.js" crossorigin="anonymous"></script>
 </svelte:head>
 
-<div class="container">
+<div class="demo-container">
 	<Title title={"Svelte + WebGL"} subtitle={"(mobile friendly!)"} subtitleDesktopOnly={true}/>
 
 	<div class="control-row">
@@ -126,9 +115,4 @@
 	</div>
 
 	<SceneCanvas id={CANVAS_ID} types={OBJECT_TYPES} objects={liveObjects}/>
-
-	<div class="footer">
-		<span><i class="fas fa-exclamation-triangle"></i> Not fully supported on Safari.</span>
-		<span>Created by <a href="https://www.stephenlrandall.com">Stephen Randall</a></span>
-	</div>
 </div>

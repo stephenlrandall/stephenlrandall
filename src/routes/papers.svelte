@@ -1,9 +1,13 @@
+<script>
+	import Title from '../components/Title.svelte';
+</script>
+
 <svelte:head>
-	<title>Papers</title>
+	<title>Papers | Stephen Randall</title>
 </svelte:head>
 
-<h1>Papers I helped write.</h1>
+<Title title={"Papers I helped write."}/>
 
 <ul>
-	<li>...</li>
+	<li>Step 1: Learn how to load/parse a JSON file of my publication data.</li>
 </ul>

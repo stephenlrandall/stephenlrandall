@@ -7,18 +7,19 @@
         flex-flow: column nowrap;
         align-items: center;
 
-        padding-bottom: 20px;
+        padding: 0.5em 0 1em;
     }
     
     .title
     {
         font-size: 48pt;
         font-weight: bold;
+        text-align: center;
     }
 
     @media only screen and (max-width: $mobileWidth)
     {
-        .title { font-size: 26pt; }
+        .title { font-size: 22pt; }
         .subtitle.desktop-only { display: none; }
     }
 </style>
