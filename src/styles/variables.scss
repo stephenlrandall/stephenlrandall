@@ -1,0 +1,15 @@
+// Theme colors
+$deep-violet: rgb(17, 0, 65);
+$gold: rgba(253, 227, 45, 1);
+$seafoam: rgb(34, 193, 195);
+
+// Maximum width to be considered a "mobile" device
+$mobileWidth: 650px;
+
+// Centered content in a column
+@mixin centered-column
+{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
