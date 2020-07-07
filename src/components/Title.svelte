@@ -17,7 +17,7 @@
         text-align: center;
     }
 
-    @media only screen and (max-width: $mobileWidth)
+    @media (max-width: $mobileWidth)
     {
         .title { font-size: 22pt; }
         .subtitle.desktop-only { display: none; }
@@ -26,13 +26,13 @@
 
 <script>
     export let title;
-    export let subtitle;
+    export let subtitle = "";
     export let subtitleDesktopOnly = false;
 </script>
 
 <div class="title-container">
 	<span class="title">{title}</span>
-    {#if subtitle && subtitle !== ""}
+    {#if subtitle !== ""}
         <span class="subtitle{subtitleDesktopOnly ? " desktop-only" : ""}">{subtitle}</span>
     {/if}
 </div>

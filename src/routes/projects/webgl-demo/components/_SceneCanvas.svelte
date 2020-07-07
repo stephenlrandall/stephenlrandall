@@ -36,7 +36,7 @@
         }
 	}
 
-    @media only screen and (max-width: $mobileWidth)
+    @media (max-width: $mobileWidth)
     {
         .canvas-container
         {
@@ -86,8 +86,8 @@
 </script>
 
 <div class="canvas-container">
-    <span>Next: Dynamically create/destroy objects of the selected type!</span>
-    <span class="canvas-label">{objectTypes.filter(ot => ot.num > 0).map(ot => `${ot.num} ${ot.id}${ot.num > 1 ? 's' : ""}`).join(", ") || "0 objects"}</span>
+    <span><b>Next</b>: Dynamically create/destroy objects of the selected type!</span>
+    <span class="canvas-label">{objectTypes.filter(ot => ot.num > 0).map(ot => `${ot.num} ${ot.id}${ot.num > 1 ? "s" : ""}`).join(", ") || "0 objects"}</span>
     <canvas class="theme-element" id={id}></canvas>
     <span class="canvas-warning"><i class="fas fa-exclamation-triangle"></i> Not fully supported on Safari.</span>
 </div>

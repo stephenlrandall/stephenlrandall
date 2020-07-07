@@ -3,12 +3,17 @@
 html, body, #sapper { height: 100%; }
 
 // Styled elements
+code,
+.theme-element
+{
+    border-radius: 5px;
+    background-color: #fff7;
+}
+
 .theme-element
 {
     border: 1px solid #fff9;
-    border-radius: 5px;
     color: black;
-    background-color: #fff7;
 }
 
 // Interactable elements
@@ -32,4 +37,18 @@ html, body, #sapper { height: 100%; }
         cursor: pointer;
         background-color: #fff9;
     }
+}
+
+// MathJax hidden loading
+.mathjax-content
+{
+    opacity: 0;
+
+    &.mathjax-rendered { opacity: 1; }
+}
+
+// Remove the context menu for MathML elements
+mjx-container
+{
+    pointer-events: none;
 }

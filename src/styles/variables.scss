@@ -6,7 +6,8 @@ $seafoam: rgb(34, 193, 195);
 // Global reference constants
 $mobileWidth: 650px;
 $navHeight: 60px;
-$footerHeight: 40px;
+$desktopButtonWidth: 130px;
+$footerHeight: 50px;
 
 // Centered content in a column
 @mixin centered-column

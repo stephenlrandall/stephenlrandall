@@ -1,5 +1,5 @@
 <script>
-	import Title from '../../components/Title.svelte';
+	import Title from "../../components/Title.svelte";
 </script>
 
 <svelte:head>
@@ -8,7 +8,7 @@
 
 <Title title={"Things I work(ed) on."}/>
 
-<span>Add descriptions!</span>
+<span><b>Next</b>: Add descriptions + cool design!</span>
 
 <ul>
 	<li><a href="https://www.duellinksmeta.com">duellinksmeta.com</a></li>

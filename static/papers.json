@@ -1,0 +1,58 @@
+[
+	{
+		"title": "Five-Dimensional Supergravity in $N = 1/2$ Superspace",
+        "coauthors": ["K. Becker", "M. Becker", "D. Butter", "W. D. Linch III"],
+        "year": "2019",
+        "inspireID": "1755218",
+        "abstract": "We construct 5D, $N = 1$ supergravity in a 4D, $N = 1$ superspace with an extra bosonic coordinate. This represents four of the supersymmetries and the associated Poincaré symmetries manifestly. The remaining four supersymmetries and the rest of the Poincaré symmetries are represented linearly but not manifestly. In the linearized approximation, the action reduces to the known superspace result. As an application of the formalism, we discuss the construction of the 5D gravitational Chern-Simons invariant $\\int A \\wedge R \\wedge R$ in this superspace."
+    },
+    {
+        "title": "All Chern-Simons Invariants of 4D, $N = 1$ Gauged Superform Hierarchies",
+        "coauthors": ["K. Becker", "M. Becker", "W. D. Linch III", "D. Robbins"],
+        "year": "2017",
+        "inspireID": "1512131",
+        "abstract": "We give a geometric description of supersymmetric gravity/(non-)abelian $p$-form hierarchies in superspaces with 4D, $N = 1$ super-Poincaré invariance. These hierarchies give rise to Chern-Simons-like invariants, such as those of the 5D, $N = 1$ graviphoton and the eleven-dimensional 3-form but also generalizations such as Green-Schwarz-like/BF-type couplings. Previous constructions based on prepotential superfields are reinterpreted in terms of $p$-forms in superspace thereby elucidating the underlying geometry. This vastly simplifies the calculations of superspace field-strengths, Bianchi identities, and Chern-Simons invariants. Using this, we prove the validity of a recursive formula for the conditions defining these actions for any such tensor hierarchy. Solving it at quadratic and cubic orders, we recover the known results for the BF-type and cubic Chern-Simons actions. As an application, we compute the quartic invariant $\\sim A \\wedge dA \\wedge dA \\wedge dA + \\ldots$ relevant, for example, to seven-dimensional supergravity compactifications."
+    },
+    {
+        "title": "Supersymmetric Tensor Hierarchies from Superspace Cohomology",
+        "coauthors": [],
+        "year": "2016",
+        "inspireID": "1474165",
+        "abstract": "In this set of lectures we give a pedagogical introduction to the way in which the nilpotency of a super-de Rham operator can be exploited for the construction of gauge theories in superspace. We begin with a discussion of how the super-geometric closure conditions can be solved by simply computing the cocycles of the super-algebra. The next couple lectures are then devoted to applying this idea to extensions of the standard super-de Rham complex. This eventually results in a geometric \"trivialization\" of the consistency conditions required for non-abelian tensor hierarchies. Although this is a general conclusion, we focus specifically on the hierarchy obtained by compactifying the 3-form gauge field of 11D supergravity to 4D, $N = 1$ superspace. In the final lecture, we use the cohomological arguments developed herein to provide a geometric construction of the non-trivial Chern-Simons-type invariant in that tensor hierarchy and comment on generalizations. These lectures are based on a series of talks given at Texas A&M University from March 21-25."
+    },
+    {
+        "title": "Searches for $R$-parity-violating supersymmetry in $pp$ collisions at $\\sqrt{s} =$ 8 TeV in final states with 0-4 leptons",
+        "coauthors": ["the CMS Collaboration"],
+        "year": "2016",
+        "inspireID": "1472314",
+        "abstract": "Results are presented from searches for $R$-parity-violating supersymmetry in events produced in $pp$ collisions at $\\sqrt{s} =$ 8 TeV at the LHC. Final states with 0, 1, 2, or multiple leptons are considered independently. The analysis is performed on data collected by the CMS experiment corresponding to an integrated luminosity of 19.5 fb$^{-1}$. No excesses of events above the standard model expectations are observed, and 95% confidence level limits are set on supersymmetric particle masses and production cross sections. The results are interpreted in models featuring $R$-parity-violating decays of the lightest supersymmetric particle, which in the studied scenarios can be either the gluino, a bottom squark, or a neutralino. In a gluino pair production model with baryon number violation, gluinos with a mass less than 0.98 and 1.03 TeV are excluded, by analyses in a fully hadronic and one-lepton final state, respectively. An analysis in a dilepton final state is used to exclude bottom squarks with masses less than 307 GeV in a model considering bottom squark pair production. Multilepton final states are considered in the context of either strong or electroweak production of superpartners and are used to set limits on the masses of the lightest supersymmetric particles. These limits range from 300 to 900 GeV in models with leptonic and up to approximately 700 GeV in models with semileptonic $R$-parity-violating couplings."
+    },
+    {
+        "title": "Superspace de Rham Complex and Relative Cohomology",
+        "coauthors": ["W. D. Linch III"],
+        "year": "2014",
+        "inspireID": "1334406",
+        "abstract": "We investigate the super-de Rham complex of five-dimensional superforms with $N = 1$ supersymmetry. By introducing a free supercommutative algebra of auxiliary variables, we show that this complex is equivalent to the Chevalley-Eilenberg complex of the translation supergroup with values in superfields. Each cocycle of this complex is defined by a Lorentz- and iso-spin-irreducible superfield subject to a set of constraints. Restricting to constant coefficients results in a subcomplex in which components of the cocycles are coboundaries while the constraints on the defining superfields span the cohomology. This reduces the computation of all of the superspace Bianchi identities to a single linear algebra problem the solution of which implies new features not present in the standard four-dimensional, $N = 1$ complex. These include splitting/joining in the complex and the existence of cocycles that do not correspond to irreducible supermultiplets of closed differential forms. Interpreting the five-dimensional de Rham complex as arising from dimensional reduction from the six-dimensional complex, we find a second five-dimensional complex associated to the relative de Rham complex of the embedding of the latter in the former. This gives rise to a second source of closed differential forms previously attributed to the phenomenon called \"Weyl triviality\"."
+    },
+    {
+        "title": "The Structure of Superforms",
+        "coauthors": [],
+        "year": "2014",
+        "inspireID": "1334404",
+        "abstract": "In this thesis we examine a set of foundational questions concerning closed forms in superspace. By reformulating a number of definitions through the use of a new ring of (anti-)commuting variables and the concept of an exact Bianchi form, we demonstrate a significantly streamlined method for analyzing superforms. We also study the dimensional reduction of superforms and how the relative cohomology of the superspaces involved allows for the construction of additional closed forms not in the main complex. In particular, the entire de Rham complex of closed superforms in five-dimensional superspace with eight supercharges ($N = 1$) is derived from the complex in the corresponding six-dimensional superspace. As a concluding effort, we work out the component formulation for the matter multiplets defined by five-dimensional $p$-form field-strengths for $p = 2, 3, 4$. The first and last of these come directly from the de Rham complex and coincide with multiplets that are already well-known, while the 3-form field-strength multiplet happens to require additional effort to find. This leads to the conclusion that, in general, the super-de Rham complex is not the result of supersymmetrizing the bosonic de Rham complex."
+    },
+    {
+        "title": "Reduction Redux of Adinkra",
+        "coauthors": ["S. James Gates Jr.", "K. Stiffler"],
+        "year": "2013",
+        "inspireID": "1268178",
+        "abstract": "We show performing general \"0-brane reduction\" along an arbitrary fixed direction in spacetime and applied to the starting point of minimal, off-shell 4D, $N = 1$ irreducible supermultiplets, yields adinkras whose adjacency matrices are among some of the special cases proposed by Kuznetsova, Rojas, and Toppan. However, these more general reductions also can lead to \"Garden Algebra\" structures beyond those described in their work. It is also shown that for light-like directions, reduction to the 0-brane breaks the equality in the number of fermions and bosons for dynamical theories. This implies that light-like reductions should be done instead to the space of 1-branes or equivalently to the worldsheet."
+    },
+    {
+        "title": "4D, $N = 1$ Supergravity Genomics",
+        "coauthors": ["I. Chappell", "S. James Gates Jr.", "W. D. Linch III", "J. Parker", "A. Ridgway", "K. Stiffler"],
+        "year": "2012",
+        "inspireID": "1207316",
+        "abstract": "The off-shell representation theory of 4D, $N = 1$ supermultiplets can be categorized in terms of distinct irreducible graphical representations called adinkras as part of a larger effort we call supersymmetry \"genomics\". Recent evidence has emerged pointing to the existence of three such fundamental adinkras associated with distinct equivalence classes of a Coxeter group. A partial description of these adinkras is given in terms of two types, termed cis- and trans-adinkras (the latter being a degenerate doublet) in analogy to cis/trans isomers in chemistry. Through a new and simple procedure that uses adinkras, we find the irreducible off-shell adinkra representations of 4D, $N = 1$ supergravity, in the old-minimal, non-minimal, and conformal formulations. This procedure uncovers what appears to be a selection rule useful to reverse engineer adinkras to higher dimensions. We categorize the supergravity representations in terms of the number of cis-($n_c$) and trans-($n_t$) adinkras in the representation and synthesize our new results with our previous supersymmetry genomics results into a group theoretic framework."
+    }
+]

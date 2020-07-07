@@ -35,11 +35,11 @@
 
 		.control-element
 		{
-			width: 130px;
+			width: $desktopButtonWidth;
 		}
 	}
 
-	@media only screen and (max-width: $mobileWidth)
+	@media (max-width: $mobileWidth)
 	{
 		.add-controls,
 		.clear-controls
@@ -96,10 +96,6 @@
 		liveObjects = [];
 	}
 </script>
-
-<svelte:head>
-	<script src="https://kit.fontawesome.com/e2e4175a99.js" crossorigin="anonymous"></script>
-</svelte:head>
 
 <div class="demo-container">
 	<Title title={"Svelte + WebGL"} subtitle={"(mobile friendly!)"} subtitleDesktopOnly={true}/>
