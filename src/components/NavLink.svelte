@@ -1,8 +1,8 @@
 <style lang="scss">
     @import "../styles/variables.scss";
 
-    $inactiveColor: rgba(255, 255, 255, 0.705);
-    $activeColor: white;
+    $inactive-color: rgba(255, 255, 255, 0.705);
+    $active-color: white;
 
     .nav-link
     {
@@ -10,7 +10,7 @@
         justify-content: center;
         align-items: center;
 
-        color: $inactiveColor;
+        color: $inactive-color;
         transition: color 0.4s ease-out;
         padding: 0 0.75em 0 0;
         text-decoration: none;
@@ -21,17 +21,17 @@
             padding: 0 0.75em;
         }
 
-        &:hover { color: $activeColor; }
+        &:hover { color: $active-color; }
         &:hover svg path,
         &.active svg path
         {
-            fill: $activeColor;
+            fill: $active-color;
         }
 
         &.active
         {
             font-weight: bold;
-            color: $activeColor;
+            color: $active-color;
         }
     }
 
@@ -42,12 +42,12 @@
 
     svg
     {
-        height: $navHeight;
+        height: $nav-height;
 
         path
         {
             transition: fill 0.4s ease-out;
-            fill: $inactiveColor;
+            fill: $inactive-color;
         }
     }
 </style>

@@ -1,19 +1,22 @@
 <style lang="scss">
 	@import "../styles/variables.scss";
 	
+	$side-padding: 1.75em;
+	@media (max-width: $mobile-width) { $side-padding: 0.75em; }
+
 	nav
 	{
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+		width: calc(100% - 2 * #{$side-padding});
+
 		display: flex;
 		justify-content: flex-start;
-		height: $navHeight;
+		height: $nav-height;
 		background-color: $deep-violet;
 
-		padding: 0 1.75em;
-	}
-
-	@media (max-width: $mobileWidth)
-	{
-		nav { padding: 0 0.75em; }
+		padding: 0 $side-padding;
 	}
 </style>
 

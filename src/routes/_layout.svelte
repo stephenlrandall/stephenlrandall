@@ -7,20 +7,18 @@
 
 		background: $gold;
 		background: linear-gradient(0deg, $seafoam 0%, $gold 100%);
+		background-attachment: fixed;
 
 		width: 100%;
-		height: calc(100% - #{$navHeight});
+		min-height: calc(100% - #{$nav-height});
 
 		.content-container
 		{
+			flex: 1;
 			width: 80%;
 			max-width: 860px;
-			height: calc(100% - #{$footerHeight});
-			min-height: 0;
+			height: calc(100% - #{$footer-height});
 			margin: 0 auto;
-
-			display: flex;
-			flex-flow: column nowrap;
 		}
 	}
 </style>
@@ -54,6 +52,7 @@
 
 	onMount(function()
 	{
+		// ---------------------------------------------------------------------
 		// Ideally we would allow MathJax to start loading while the document
 		// itself loads, which would speed up the time to first MathJax render.
 		// However, putting the script in `<svelte:head>` causes issues with
@@ -61,9 +60,9 @@
 		//   -- https://github.com/sveltejs/svelte/issues/3798
 		// for a related issue with a different library). This solution gives
 		// a small window where the original document is rendered and MathJax
-		// is loading, which leads to content jumping once MathJax completes
-		// its first render. To avoid this, we use a fade-in animation to mask
-		// the content jumping.
+		// is loading, which leads to slight content jumping once MathJax
+		// completes its first render.
+		// ---------------------------------------------------------------------
 		const mathJaxScript = document.createElement("script");
 		mathJaxScript.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js";
 		document.head.append(mathJaxScript);

@@ -9,13 +9,13 @@
 
 		&:hover
 		{
-			color: rgb(255, 91, 192); // rgb(255, 92, 241);
+			color: rgb(255, 91, 192);
 			text-shadow: 1px 1px 1px #fff9;
 		}
 	}
 
-	$heartSize: 1.35em;
-	$borderSize: calc(#{$heartSize} + 0.15em);
+	$heart-size: 1.35em;
+	$border-size: calc(#{$heart-size} + 0.15em);
 
 	.heart-container
 	{
@@ -25,13 +25,13 @@
 		.heart-border
 		{
 			color: #fff6;
-			font-size: $borderSize;
+			font-size: $border-size;
 			z-index: 2;
 		}
 
 		.heart-background
 		{
-			font-size: $heartSize;
+			font-size: $heart-size;
 			z-index: 2;
 		}
 
@@ -39,7 +39,7 @@
 		.heart-pulse-2
 		{
 			opacity: 0;
-			font-size: $borderSize;
+			font-size: $border-size;
 			z-index: 1;
 
 			animation: 2s ease-out infinite heart-pulse;
@@ -63,11 +63,7 @@
 	const chirality = "\\(\\overline{D}_{\\dot{\\alpha}} \\Phi = 0\\)";
 </script>
 
-<svelte:head>
-	<title>Home | Stephen Randall</title>
-</svelte:head>
-
-<Title title={"Stephen Randall"} subtitle={"physicist. developer. husband."}/>
+<Title title={"Stephen Randall"} subtitle={"physicist. developer. husband."} headTitle={"Home"}/>
 
 <div class="mathjax-content">
 	<p><strong>Imagine there was cool stuff here</strong>, like how the supersymmetry algebra {algebra} implies that a chiral superfield \(\Phi\) satisfying {chirality} must be complex.</p>

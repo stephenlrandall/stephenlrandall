@@ -3,7 +3,7 @@
 
     footer
     {
-        height: $footerHeight;
+        height: $footer-height;
         color: white;
         font-size: 10pt;
 

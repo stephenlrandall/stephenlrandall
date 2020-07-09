@@ -4,9 +4,6 @@
 	.papers-container
 	{
 		flex: 1;
-		min-height: 0;
-		overflow-y: scroll;
-
 		padding: 1em 1.5em;
 	}
 
@@ -45,7 +42,7 @@
 	.coauthors { font-style: italic; }
 	.abstract { font-size: 10pt; }
 
-	@media (max-width: $mobileWidth)
+	@media (max-width: $mobile-width)
 	{
 		.title { font-size: 11pt };
 		.coauthors { font-size: 10pt; }
@@ -55,7 +52,7 @@
 <script context="module">
 	export function preload({ params, query }) 
 	{
-		return this.fetch("papers.json")
+		return this.fetch("data/papers.json")
 				.then(r => r.json())
 				.then(papers => { return { papers }; });
 	}
@@ -82,10 +79,6 @@
 		}
 	}
 </script>
-
-<svelte:head>
-	<title>Papers | Stephen Randall</title>
-</svelte:head>
 
 <Title title={"Papers I helped write."}/>
 

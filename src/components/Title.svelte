@@ -17,7 +17,7 @@
         text-align: center;
     }
 
-    @media (max-width: $mobileWidth)
+    @media (max-width: $mobile-width)
     {
         .title { font-size: 22pt; }
         .subtitle.desktop-only { display: none; }
@@ -28,7 +28,12 @@
     export let title;
     export let subtitle = "";
     export let subtitleDesktopOnly = false;
+    export let headTitle = "";
 </script>
+
+<svelte:head>
+	<title>{headTitle !== "" ? headTitle : title.split(" ")[0]} | Stephen Randall</title>
+</svelte:head>
 
 <div class="title-container">
 	<span class="title">{title}</span>

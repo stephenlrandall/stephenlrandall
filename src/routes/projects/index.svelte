@@ -1,16 +1,37 @@
-<script>
-	import Title from "../../components/Title.svelte";
+<style>
+	.more-label
+	{
+		display: flex;
+		justify-content: center;
+
+		padding-top: 2em;
+	}
+</style>
+
+<script context="module">
+	export function preload({ params, query }) 
+	{
+		return this.fetch("data/projects.json")
+				.then(r => r.json())
+				.then(projects => { return { projects }; });
+	}
 </script>
 
-<svelte:head>
-	<title>Projects | Stephen Randall</title>
-</svelte:head>
+<script>
+	import Title from "../../components/Title.svelte";
+	import Photo from "../../components/Photo.svelte";
 
-<Title title={"Things I work(ed) on."}/>
+	export let projects;
+</script>
 
-<span><b>Next</b>: Add descriptions + cool design!</span>
+<Title title={"Things I work(ed) on."} headTitle={"Projects"}/>
 
-<ul>
-	<li><a href="https://www.duellinksmeta.com">duellinksmeta.com</a></li>
-	<li><a href="projects/webgl-demo">WebGL Demo</a></li>
-</ul>
+<div class="gallery">
+	{#each projects as project}
+		<Photo {...project}/>
+	{/each}
+</div>
+
+<div class="more-label">
+	<span>and more!</span>
+</div>

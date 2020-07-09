@@ -2,12 +2,26 @@
 
 html, body, #sapper { height: 100%; }
 
+html
+{
+    // Mask the overflow areas on vertical elastic scrolling
+    background: $deep-violet;
+    background: linear-gradient(0deg, $deep-violet 0%, $seafoam 100%);
+}
+
 // Styled elements
 code,
 .theme-element
 {
     border-radius: 5px;
     background-color: #fff7;
+}
+
+.gallery
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .theme-element

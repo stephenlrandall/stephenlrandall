@@ -17,7 +17,7 @@
 
 	p { margin: 1em auto; }
 
-	@media (max-width: $mobileWidth)
+	@media (max-width: $mobile-width)
 	{
 		h1 { font-size: 2.8em; }
 	}

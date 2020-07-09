@@ -35,11 +35,11 @@
 
 		.control-element
 		{
-			width: $desktopButtonWidth;
+			width: $desktop-button-width;
 		}
 	}
 
-	@media (max-width: $mobileWidth)
+	@media (max-width: $mobile-width)
 	{
 		.add-controls,
 		.clear-controls
@@ -98,7 +98,7 @@
 </script>
 
 <div class="demo-container">
-	<Title title={"Svelte + WebGL"} subtitle={"(mobile friendly!)"} subtitleDesktopOnly={true}/>
+	<Title title={"WebGL Demo"} subtitle={"(mobile friendly!)"} subtitleDesktopOnly={true}/>
 
 	<div class="control-row">
 		<div class="add-controls">

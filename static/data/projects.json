@@ -1,0 +1,12 @@
+[
+    {
+        "src": "img/projects/duellinksmeta/dlm-logo.jpg",
+        "label": "duellinksmeta.com",
+        "href": "https://www.duellinksmeta.com"
+    },
+    {
+        "src": "img/projects/webgl-demo/webgl-demo.gif",
+        "label": "WebGL Demo",
+        "href": "projects/webgl-demo"
+    }
+]

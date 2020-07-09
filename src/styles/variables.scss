@@ -4,10 +4,10 @@ $gold: rgba(253, 227, 45, 1);
 $seafoam: rgb(34, 193, 195);
 
 // Global reference constants
-$mobileWidth: 650px;
-$navHeight: 60px;
-$desktopButtonWidth: 130px;
-$footerHeight: 50px;
+$mobile-width: 550px;
+$nav-height: 60px;
+$desktop-button-width: 130px;
+$footer-height: 50px;
 
 // Centered content in a column
 @mixin centered-column

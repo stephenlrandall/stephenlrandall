@@ -36,7 +36,7 @@
         }
 	}
 
-    @media (max-width: $mobileWidth)
+    @media (max-width: $mobile-width)
     {
         .canvas-container
         {
