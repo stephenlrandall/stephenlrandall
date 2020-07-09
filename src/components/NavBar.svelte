@@ -9,6 +9,7 @@
 		position: -webkit-sticky;
 		position: sticky;
 		top: 0;
+		z-index: 2;
 		width: calc(100% - 2 * #{$side-padding});
 
 		display: flex;

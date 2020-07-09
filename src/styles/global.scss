@@ -2,9 +2,9 @@
 
 html, body, #sapper { height: 100%; }
 
-html
+body
 {
-    // Mask the overflow areas on vertical elastic scrolling
+    // Try to mask the overflow areas on vertical elastic scrolling
     background: $deep-violet;
     background: linear-gradient(0deg, $deep-violet 0%, $seafoam 100%);
 }

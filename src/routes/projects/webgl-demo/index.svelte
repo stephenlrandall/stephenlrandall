@@ -98,7 +98,7 @@
 </script>
 
 <div class="demo-container">
-	<Title title={"WebGL Demo"} subtitle={"(mobile friendly!)"} subtitleDesktopOnly={true}/>
+	<Title title={"WebGL Demo"} subtitle={"(right now this does nothing!)"}/>
 
 	<div class="control-row">
 		<div class="add-controls">
